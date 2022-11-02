@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/Link';
 import Head from 'next/head';
 import useSWR from 'swr';
 import React from 'react';

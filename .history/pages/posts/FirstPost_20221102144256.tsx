@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from "next/Link";
 import Head from "next/head";
 import Script from "next/script";
-// import Layout from "layout";
+// import Layout from "pages/layout";
 import React from "react";
 import styles from "/styles/MyFirstPost.module.scss"
 import styled from "styled-components";
@@ -13,7 +13,7 @@ export default function MyFirstPost() {
     return (
     <>
     {/* <React.StrictMode> */}
-    {/* <Layout> */}
+    <Layout>
     <Head>
         <title>First Post</title>
       </Head>
@@ -32,7 +32,7 @@ export default function MyFirstPost() {
       </h2>
       {/* whenever Link components appear in the browser’s viewport, Next.js automatically prefetches 
       the code for the linked page in the background. By the time you click the link, the code for the destination page will already be loaded in the background, and the page transition will be near-instant! */}
-    {/* </Layout> */}
+    </Layout>
     {/* </React.StrictMode> */}
     </>
         )}

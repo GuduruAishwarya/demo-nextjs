@@ -16,7 +16,7 @@ MySecondPost.myLayout=function MyPageLayout(p)
     <>
     {p}
     {console.log("p",p)}
-    {/* <Footer/> */}
+    <Footer/>
     </>
   )
 }

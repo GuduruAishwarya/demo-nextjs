@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '/styles/Home.module.css'
-import Link from 'next/link';
+import Link from 'next/link'
 // import SSG from './posts/details'
 // import tt from '@/imgs/tata-neu.jpg'
 import React from 'react'
@@ -27,11 +27,11 @@ export default function Home() {
       </main>
       <img src="/images/girl.png" alt="Girl "/>
       <div>
-      {/* <Image src="/images/one.jpg" loading="lazy" placeholder="blurDataURL" alt="one " height={500} width={500}  />
+      <Image src="/images/one.jpg" loading="lazy" placeholder="blurDataURL" alt="one " height={500} width={500}  />
       <Image src="/images/two.jpg" loading="lazy" placeholder="blurDataURL" alt="Two " height={500} width={500}/>
       <Image src="/images/three.png"loading="lazy" placeholder="blurDataURL" alt="Three " height={500} width={500} />
       <Image src="/images/four.jpg" loading="lazy" placeholder="blurDataURL" alt="Four " height={500} width={500}  />
-      <Image src="/images/five.jpg"  loading="lazy"placeholder="blurDataURL" alt="Five " height={500} width={500} /> */}
+      <Image src="/images/five.jpg"  loading="lazy"placeholder="blurDataURL" alt="Five " height={500} width={500} />
      
       </div>
      

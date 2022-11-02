@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '/styles/Home.module.css'
-import Link from 'next/link';
+import Link from 'next/Link'
 // import SSG from './posts/details'
 // import tt from '@/imgs/tata-neu.jpg'
 import React from 'react'

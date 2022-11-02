@@ -1,5 +1,5 @@
 import Head from "next/head"
-// import Footer from "components/footer.js"
+import Footer from "./components/footer"
 import React from "react"
 export default function MySecondPost() {
     return (
@@ -16,7 +16,7 @@ MySecondPost.myLayout=function MyPageLayout(p)
     <>
     {p}
     {console.log("p",p)}
-    {/* <Footer/> */}
+    <Footer/>
     </>
   )
 }
